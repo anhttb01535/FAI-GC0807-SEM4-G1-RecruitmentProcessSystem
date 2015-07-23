@@ -1,0 +1,191 @@
+body {
+	background-color: #e2e2e2;
+	min-width: 960px;
+	margin: 0;
+}
+img {
+	display: block;
+	border: 0;
+}
+#header {
+	background: #4e5944 url(../images/bg-header.jpg) repeat-x left bottom;
+	padding: 40px 0 46px;
+}
+.clearfix {
+	width: 960px;
+	margin: 0 auto;
+}
+.clearfix:after {
+	clear:both;
+	content:"";
+	display:block;
+	line-height:0;
+	height:1%;
+	visibility:hidden;
+}
+
+.logo {
+	float: left;
+	display: inline-block;
+}
+
+.navigation {
+	float: right;
+	list-style: none;
+	margin: 28px 0 0;
+	padding: 0;
+}
+
+.navigation li {
+	float: left;
+	margin-left: 30px;
+	position: relative;
+}
+.navigation li > a {
+	color: #b8c6ac;
+	font: bold 13px/24px Times, "Times New Roman", serif;
+	text-decoration: none;
+	text-shadow: 1px 1px #000;
+	text-transform: uppercase;
+}
+.navigation li.active > a, .navigation > a:hover {
+	color: #fff;
+}
+.navigation li > div {
+	background-color: #888888;
+	display: none;
+	width: 110px;
+	position: absolute;
+	left: 0px;
+	top: 24px;
+}
+.navigation li:hover > div {
+	display: block;
+}
+.navigation li > div a {
+	color: #b8c6ac;
+	font: bold 13px/24px "Times New Roman", Times, serif;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: none;
+}
+.navigation li > div a:hover {
+	color: #fff;
+}
+
+#contents {
+	padding-bottom: 24px;
+}
+#contents > div.clearfix:first-child {
+	width: 940px;
+	padding: 30px 10px 0;
+}
+#contents img {
+	border: 1px solid rgba(231, 231, 231, 0.8);
+}
+h1 {
+	color: #57614e;
+	font: 29px/30px "Times New Roman", Times, serif;
+	margin: 0 0 12px;
+	text-transform: uppercase;
+}
+h2 {
+	color: #626262;
+	font: 19px/24px "Times New Roman", Times, serif;
+	letter-spacing: 2px;
+	margin: 0;
+	text-transform: uppercase;
+}
+p {
+	color: #626262;
+	font: 14px/24px Arial, Helvetica, sans-serif;
+	margin: 0 0 24px;
+}
+p a {
+	color: #626262;
+}
+p a:hover {
+	color: #333333;
+}
+
+#adbox {
+	background: url(../images/bg-adbox.png) no-repeat center bottom;
+	border-bottom: 1px solid #fff;
+	padding-top: 15px;
+}
+#adbox > div {
+	background-color: #e9e9e9;
+	width: 958px;
+	border: 1px solid #fff;
+	margin: 0 auto;
+	position: relative;
+}
+#adbox > div img {
+	float: right;
+}
+#adbox .detail {
+	font-family: Times, "Times New Roman", serif;
+	height: 185px;
+	line-height: 48px;
+	width: 308px;
+	text-align: center;
+	position: absolute;
+	left: 54px;
+	top: 90px;
+}
+#adbox .detail h1 {
+	color: #4e5944;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 48px;
+	margin: 0;
+	text-transform: none;
+}
+#adbox .detail p {
+	color: #4e5944;
+	font: 25px/48px "Times New Roman", Times, serif;
+	margin: 0;
+}
+
+#footer {
+	background: #d9d9d9 url(../images/bg-footer.png) repeat-x left top;
+	border-top: 2px solid #fff;
+}
+#footer .section {
+	float: left;
+	min-height: 146px;
+	width: 259px;
+	border-left: 1px solid #c2c2c2;
+	padding: 30px;
+}
+#footer .section h4 {
+	color: #626262;
+	font: bold 12px/24px Arial, Helvetica, sans-serif;
+	margin: 0;
+	text-transform: uppercase;
+}
+#footer .section p {
+	font-size: 12px;
+	margin: 0;
+}
+#footer .section:first-child {
+	border: 0;
+}
+#footer .contact p span {
+	text-transform: uppercase;
+}
+#footnote {
+	background: url(../images/bg-footnote.jpg) repeat-x left top;
+	border-top: 1px solid #fff;
+	padding: 6px 0 3px;
+}
+#footnote p {
+	color: #b5c1aa;
+	font: 11px/30px Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding-right: 10px;
+	text-align: right;
+	text-transform: uppercase;
+}
+

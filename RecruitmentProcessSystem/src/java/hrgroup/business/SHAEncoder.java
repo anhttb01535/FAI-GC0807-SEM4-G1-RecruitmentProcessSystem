@@ -7,6 +7,9 @@ package hrgroup.business;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -23,5 +26,17 @@ public class SHAEncoder {
         }
 
         return sb.toString();
+    }
+    
+    public static void main(String[] args) {
+        try {
+            Scanner input = new Scanner(System.in);
+            System.out.println("Nhap vao chuoi can ma hoa: ");
+            String msg = input.nextLine();
+            System.out.println("Chuoi ma hoa: ");
+            System.out.println(Encode(msg));
+        } catch (NoSuchAlgorithmException ex) {
+            Logger.getLogger(SHAEncoder.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 }
