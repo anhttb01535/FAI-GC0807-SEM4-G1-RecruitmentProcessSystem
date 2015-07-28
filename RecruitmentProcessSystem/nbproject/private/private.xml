@@ -13,6 +13,7 @@
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/struts.xml</file>
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/controller/AdminDataController.java</file>
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/db/controller/AdministratorJpaController.java</file>
+            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/db/entities/Administrator.java</file>
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/db/entities/InterviewResult.java</file>
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/template/about.jsp</file>
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/action/LoginAdmin.java</file>

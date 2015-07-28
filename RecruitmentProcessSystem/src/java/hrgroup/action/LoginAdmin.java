@@ -6,7 +6,6 @@
 package hrgroup.action;
 
 import com.opensymphony.xwork2.Action;
-import hrgroup.business.SHAEncoder;
 import hrgroup.controller.AdminDataController;
 import java.util.Map;
 
@@ -19,8 +18,10 @@ public class LoginAdmin {
     private String username;
     private String password;
     private Map<String,Object> sessionMap;
+    private AdminDataController controller;
 
     public LoginAdmin() {
+        controller = new AdminDataController();
     }
     
     public String getUsername() {
@@ -48,8 +49,7 @@ public class LoginAdmin {
     }
     
     public String execute() throws Exception {
-        String encodePass = SHAEncoder.Encode(password);
-        if(AdminDataController.checkLogin(username, encodePass)) {
+        if(controller.checkLogin(username, password)) {
             return Action.SUCCESS;
         }
         else {

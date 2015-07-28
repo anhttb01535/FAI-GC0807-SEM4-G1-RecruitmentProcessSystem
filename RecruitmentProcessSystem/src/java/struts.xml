@@ -5,5 +5,9 @@
 <struts>
     <!-- Configuration for the default package. -->
     <package name="default" extends="struts-default">
+        <action name="LoginAdmin" class="hrgroup.action.LoginAdmin">
+            <result name="success">manager.jsp</result>
+            <result name="error">index.jsp</result>
+        </action>
     </package>
 </struts>

@@ -22,28 +22,32 @@ import javax.persistence.Persistence;
  */
 public class ApplicantDatacontroller {
 
-    private static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("RecruitmentProcessSystemPU");
-    private static final ApplicantJpaController jpaController = new ApplicantJpaController(emf);
+    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("RecruitmentProcessSystemPU");
+    private ApplicantJpaController jpaController;
 
+    public ApplicantDatacontroller() {
+        jpaController = new ApplicantJpaController(emf);
+    }
+    
     //Lấy toàn bộ ứng viên
-    public static List<Applicant> findAllApplicant() {
+    public List<Applicant> findAllApplicant() {
         return jpaController.findApplicantEntities();
     }
 
     //Thêm mới 1 ứng viên
-    public static void addApplicant(String name, String birthday, String email, String sex, String address, String username, String password) throws Exception {
+    public void addApplicant(String name, String birthday, String email, String sex, String address, String username, String password) throws Exception {
         String id = genRandomID();
         Applicant applicant =  new Applicant(id, name, birthday, email, sex, address, new Date().toString(), username, password, "Not in Process");
         jpaController.create(applicant);
     }
     
     //Tìm ứng viên theo id
-    public static Applicant findApplicantById(String id) {
+    public Applicant findApplicantById(String id) {
         return jpaController.findApplicant(id);
     }
 
     //Tự động sinh id
-    public static String genRandomID() {
+    public String genRandomID() {
         List<Applicant> applicants = findAllApplicant();
         String id = "";
         List<String> ids = new ArrayList<>();

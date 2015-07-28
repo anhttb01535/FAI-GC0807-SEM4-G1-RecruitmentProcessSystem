@@ -16,8 +16,8 @@
     <body>
         <h1>Login</h1>
         <s:form method="POST" action="LoginAdmin">
-            Username: <s:textfield name="username" />
-            Password: <s:textfield name="password" />
+            Username: <s:textfield name="username" /> <br/>
+            Password: <s:password name="password" />
             <s:submit value="Login" />
         </s:form>
     </body>

@@ -20,14 +20,19 @@ import javax.persistence.Persistence;
  * @author tuananh
  */
 public class AdminDataController {
-    private static final EntityManagerFactory emf = Persistence.createEntityManagerFactory("RecruitmentProcessSystemPU");
-    private static final AdministratorJpaController jpaController = new AdministratorJpaController(emf);
+    private final EntityManagerFactory emf = Persistence.createEntityManagerFactory("RecruitmentProcessSystemPU");
+    private final AdministratorJpaController jpaController;
+
+    public AdminDataController() {
+        jpaController = new AdministratorJpaController(emf);
+    }
     
-    public static List<Administrator> findAllAdmin() {
+    
+    public  List<Administrator> findAllAdmin() {
         return jpaController.findAdministratorEntities();
     }
     
-    public static boolean checkLogin(String username, String password) throws Exception {
+    public boolean checkLogin(String username, String password) throws Exception {
         List<Administrator> admins = findAllAdmin();
         String encodePass = SHAEncoder.Encode(password);
         if(username.isEmpty()) {
