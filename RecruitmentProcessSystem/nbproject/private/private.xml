@@ -9,16 +9,14 @@
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/admin/manager.jsp</file>
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/template/index.jsp</file>
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/business/SHAEncoder.java</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/db/controller/ApplicantJpaController.java</file>
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/struts.xml</file>
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/controller/AdminDataController.java</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/db/controller/AdministratorJpaController.java</file>
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/db/entities/Administrator.java</file>
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/db/entities/InterviewResult.java</file>
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/template/about.jsp</file>
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/action/LoginAdmin.java</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/admin/index.jsp</file>
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/conf/persistence.xml</file>
+            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/admin/index.jsp</file>
             <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/controller/ApplicantDatacontroller.java</file>
         </group>
     </open-files>
