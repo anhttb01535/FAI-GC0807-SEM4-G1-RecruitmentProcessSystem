@@ -7,34 +7,45 @@ package hrgroup.action;
 
 import com.opensymphony.xwork2.Action;
 import com.opensymphony.xwork2.ActionContext;
-import hrgroup.controller.AdminDataController;
+import hrgroup.controller.ApplicantDatacontroller;
+import hrgroup.controller.DepartmentDataController;
+import hrgroup.db.entities.Department;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 /**
  *
- * @author tuananh
+ * @author trant
  */
-public class LoginAdmin {
+public class LoginApplicant {
     
     private String username;
     private String password;
     private String error;
-    private AdminDataController controller;
-
-    public LoginAdmin() {
-        controller = new AdminDataController();
+    private List<String> departments = new ArrayList<>();
+    
+    private ApplicantDatacontroller controller;
+    private DepartmentDataController controller1;
+    public LoginApplicant() {
+        controller = new ApplicantDatacontroller();
+        controller1 = new DepartmentDataController();
+        List<Department> departs = controller1.findAllDepartment();
+        for(Department d:departs) {
+            departments.add(d.getName());
+        }
     }
 
-//    public List<String> getTitles() {
-//        return titles;
-//    }
-//
-//    public void setTitles(List<String> titles) {
-//        this.titles = titles;
-//    }
-    
     public String getUsername() {
         return username;
+    }
+
+    public List<String> getDepartments() {
+        return departments;
+    }
+
+    public void setDepartments(List<String> departments) {
+        this.departments = departments;
     }
 
     public void setUsername(String username) {
@@ -56,11 +67,11 @@ public class LoginAdmin {
     public void setError(String error) {
         this.error = error;
     }
-    
+
     public String execute() throws Exception {
         Map session = ActionContext.getContext().getSession();
         if(controller.checkLogin(username, password)) {
-            session.put("loggedin", "true");
+            session.put("loggedinApp", "true");
             session.put("username", getUsername());
             return Action.SUCCESS;
         }

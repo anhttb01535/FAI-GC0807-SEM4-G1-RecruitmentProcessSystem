@@ -5,6 +5,7 @@
  */
 package hrgroup.controller;
 
+import hrgroup.business.SHAEncoder;
 import hrgroup.db.controller.ApplicantJpaController;
 import hrgroup.db.entities.Applicant;
 import java.util.ArrayList;
@@ -45,7 +46,36 @@ public class ApplicantDatacontroller {
     public Applicant findApplicantById(String id) {
         return jpaController.findApplicant(id);
     }
+    
+    public Applicant findApplicantByUsername(String username) {
+        List<Applicant> apps = findAllApplicant();
+        for(Applicant app:apps) {
+            if(app.getUsername().equals(username)) {
+                return app;
+            }
+        }
+        return null;
+    }
 
+     public boolean checkLogin(String username, String password) throws Exception {
+        List<Applicant> apps = findAllApplicant();
+        String encodePass = SHAEncoder.Encode(password);
+        if(username.isEmpty()) {
+                throw new Exception("Username is required");
+            }
+            if(password.isEmpty()) {
+                throw new Exception("Password is required");
+            }
+        for(Applicant app:apps) {
+            if(username.equals(app.getUsername())) {
+                if(encodePass.equals(app.getPassword())) {
+                    return true;
+                }
+            }            
+        }
+        return false;
+    }
+     
     //Tự động sinh id
     public String genRandomID() {
         List<Applicant> applicants = findAllApplicant();

@@ -2,26 +2,38 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-<<<<<<< HEAD
         <group>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/template/register.jsp</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/db/entities/Applicant.java</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/template/login.jsp</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/admin/manager.jsp</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/template/index.jsp</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/business/SHAEncoder.java</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/struts.xml</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/controller/AdminDataController.java</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/db/entities/Administrator.java</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/db/entities/InterviewResult.java</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/template/about.jsp</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/action/LoginAdmin.java</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/conf/persistence.xml</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/admin/index.jsp</file>
-            <file>file:/C:/Users/tuananh/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/controller/ApplicantDatacontroller.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/db/entities/Department.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/db/entities/Applicant.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/controller/InterviewDataController.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/admin/index.jsp</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/action/LoadInterviewApp.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/action/LoadInterview.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/action/LoginAdmin.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/action/LoginApplicant.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/template/index.jsp</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/admin/managerswap.jsp</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/template/applicant.jsp</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/db/entities/Interview.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/template/about.jsp</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/controller/ApplicantDatacontroller.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/admin/createinterview.jsp</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/action/LoadVacancy.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/controller/InterviewerDataController.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/template/register.jsp</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/controller/AdminDataController.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/controller/VacancyDataController.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/admin/manage-applicant.jsp</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/template/login.jsp</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/struts.xml</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/action/CreateInterview.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/controller/InterviewResultDataController.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/admin/manage-vacancy.jsp</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/template/vacancy.jsp</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/controller/DepartmentDataController.java</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/template/interview.jsp</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/admin/manage-interviewer.jsp</file>
+            <file>file:/C:/Users/trant/Documents/GitHub/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/admin/manager.jsp</file>
         </group>
-=======
-        <group/>
->>>>>>> origin/master
     </open-files>
 </project-private>

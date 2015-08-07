@@ -9,5 +9,22 @@
             <result name="success">manager.jsp</result>
             <result name="error">index.jsp</result>
         </action>
+        <action name="LoginApplicant" class="hrgroup.action.LoginApplicant">
+            <result name="success">applicant.jsp</result>
+            <result name="error">login.jsp</result>
+        </action>
+        <action name="CreateInterview" class="hrgroup.action.CreateInterview">
+            <result name="success">manager.jsp</result>
+            <result name="error">manager.jsp</result>
+        </action>
+        <action name="LoadInterview" class="hrgroup.action.LoadInterview">
+            <result name="success">createinterview.jsp</result>
+        </action>
+        <action name="LoadVacancy" class="hrgroup.action.LoadVacancy">
+            <result name="success">vacancy.jsp</result>
+        </action>
+        <action name="LoadInterviewApp" class="hrgroup.action.LoadInterviewApp">
+            <result name="success">interview.jsp</result>
+        </action>
     </package>
 </struts>

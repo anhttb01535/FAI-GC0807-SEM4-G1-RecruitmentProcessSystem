@@ -16,17 +16,17 @@
         <div id="header">
 		<div class="clearfix">
 			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt="LOGO" height="52" width="362"></a>
+				<a href="index.jsp"><img src="images/logo.png" alt="LOGO" height="52" width="362"></a>
 			</div>
 			<ul class="navigation">
 				<li class="active">
-					<a href="index.html">Home</a>
+					<a href="index.jsp">Home</a>
 				</li>
 				<li>
-					<a href="about.html">About Us</a>
+					<a href="about.jsp">About Us</a>
 				</li>				
 				<li>
-					<a href="login.html">Login</a>
+					<a href="login.jsp">Login</a>
 				</li>
 			</ul>
 		</div>

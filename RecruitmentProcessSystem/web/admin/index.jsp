@@ -14,6 +14,9 @@
         <title>Login</title>
     </head>
     <body>
+        <s:if test="#session.loggedin == 'true'">
+            <jsp:forward page="manager.jsp" />
+        </s:if>
         <h1>Login</h1>
         <s:form method="POST" action="LoginAdmin">
             Username: <s:textfield name="username" /> <br/>
