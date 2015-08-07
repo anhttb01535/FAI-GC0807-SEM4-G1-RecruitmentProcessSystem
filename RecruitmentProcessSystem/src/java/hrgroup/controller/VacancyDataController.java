@@ -41,6 +41,16 @@ public class VacancyDataController {
         return selectVacan;
     }
     
+    public Vacancy findVacancyByTitle(String title) {
+        List<Vacancy> vacancies = findAllVacancies();
+        for(Vacancy v:vacancies) {
+            if(v.getTitle().equals(title)) {
+                return v;
+            }
+        }
+        return null;
+    }
+    
     public void persist(Object object) {
         EntityManager em = emf.createEntityManager();
         try {

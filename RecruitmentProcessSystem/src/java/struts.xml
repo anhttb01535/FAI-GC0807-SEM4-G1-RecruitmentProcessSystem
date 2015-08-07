@@ -42,10 +42,13 @@
             <result name="success">loadinterview.jsp</result>
         </action>
         <action name="LoadDepartment" class="hrgroup.action.LoadDepartment">
-            <result name="success">addinterview.jsp</result>
+            <result name="success">loadvacaninter.jsp</result>
         </action>
         <action name="LoadVacanInter" class="hrgroup.action.LoadVacanInter">
             <result name="success">addinterview.jsp</result>
+        </action>
+        <action name="AddInterview" class="hrgroup.action.AddInterview">
+            <result name="success">loadinterview.jsp</result>
         </action>
     </package>
 </struts>

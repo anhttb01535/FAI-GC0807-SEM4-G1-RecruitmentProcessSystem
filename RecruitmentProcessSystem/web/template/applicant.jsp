@@ -11,6 +11,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Applicant</title>
+        <link rel="stylesheet" href="css/style2.css" type="text/css">
     </head>
     <body>
         <s:if test="#session.loggedinApp != 'true'">

@@ -30,6 +30,8 @@
                 <s:div>
                     <s:form action="LoadInterviewApp" method="POST">
                         <s:set value="#v.id" name="id1"/>
+                        <s:param name="id"><s:property value="#id1"/></s:param>
+                        <s:textfield readonly="true" name="id" value="%{id1}"/>
                         <table>
                             <tr>
                                 <td>ID</td>
@@ -45,10 +47,7 @@
                                 <td><s:property value="#v.status"/></td>
                                 <td><s:submit value="Interview schedule"/></td>
                             </tr>
-
                         </table>
-
-
                     </s:form>
                 </s:div>
             </s:iterator>

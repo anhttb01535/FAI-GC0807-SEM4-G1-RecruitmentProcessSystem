@@ -35,15 +35,14 @@
                         <span class="go"><input name="" type="submit" /></span>
                     </fieldset>
                 </form>-->
-                <!--                <ul id="search_wrapper_menu">
-                                    <li class="first"><a href="#">Advanced Search</a></li>
-                                    <li class="last"><a href="#">Admin Map</a></li>
-                                </ul>-->
-            </div>
-            <!--[if !IE]>end search<![endif]-->
+            <!--                <ul id="search_wrapper_menu">
+                                <li class="first"><a href="#">Advanced Search</a></li>
+                                <li class="last"><a href="#">Admin Map</a></li>
+                            </ul>-->
         </div>
-        <!--[if !IE]>end user details<![endif]-->
+        <!--[if !IE]>end search<![endif]-->
     </div>
+    <!--[if !IE]>end user details<![endif]-->
     <!--[if !IE]>end logo end user details<![endif]-->
     <!--[if !IE]>start menus_wrapper<![endif]-->
     <div id="menus_wrapper">
@@ -52,8 +51,8 @@
                 <li><a href="/RecruitmentProcessSystem/admin/manager.jsp"><span><span>Main</span></span></a></li>
                 <li><a href="GetAllInterview.action"><span><span>Interview</span></span></a></li>
                 <li><s:a action="GetAllProduct"><span><span>Interviewer</span></span></s:a></li>
-                <li><a href="GetAllUser.action"><span><span>Applicant</span></span></a></li>
-                <li><s:a action="GetAllBill"><span><span>Vacancy</span></span></s:a></li>
+                    <li><a href="GetAllUser.action"><span><span>Applicant</span></span></a></li>
+                    <li><s:a action="GetAllBill"><span><span>Vacancy</span></span></s:a></li>
                 <li class="last"><a href="GetAllFeedBackForAdmin.action"><span><span>Department</span></span></a></li>
             </ul>
         </div>

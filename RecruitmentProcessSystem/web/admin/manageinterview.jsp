@@ -10,7 +10,6 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
         <title>JSP Page</title>
         <link media="screen" rel="stylesheet" type="text/css" href="css/admin.css"  />
         <script type="text/javascript" src="js/behaviour.js"></script>
@@ -86,7 +85,7 @@
                                                             <!--[if !IE]>start table menu<![endif]-->
                                                             <div class="table_menu">
                                                                 <ul class="left">
-                                                                    <li><s:a href="LoadDepartment.action" class="button add_new"><span><span>ADD NEW</span></span></a></li>
+                                                                    <li><s:a href="LoadDepartment.action" class="button add_new"><span><span>ADD NEW</span></span></s:a></li>
                                                                 </ul>
                                                             </div>
                                                             <!--[if !IE]>end table menu<![endif]-->

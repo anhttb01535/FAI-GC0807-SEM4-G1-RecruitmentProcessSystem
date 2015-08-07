@@ -1,13 +1,13 @@
 <%-- 
     Document   : addinterview
-    Created on : Aug 7, 2015, 10:31:35 PM
+    Created on : Aug 8, 2015, 1:12:29 AM
     Author     : trant
 --%>
 
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@taglib prefix="s" uri="/struts-tags" %>
+<%@taglib prefix="s" uri="/struts-tags"%>
 <!DOCTYPE html>
+
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -48,22 +48,10 @@
                                                         <table align="center" cellpadding="5" cellspacing="1">
                                                             <tr>
                                                                 <td align="left" colspan="2">
-                                                                    <s:form action="LoadVacanInter" method="post">
-                                                                        <s:select onchange="document.forms(1).submit()" list="departments" label="Choose department" headerKey="-1" headerValue="Choose department" name="department"></s:select>
-                                                                    </s:form>
-                                                                    <c:choose>
-                                                                        <c:when test="${status.equals('no')}">
-                                                                            <s:select list="#{}" label="Choose Vacancy" headerKey="-1" headerValue="Choose vacancy" name="vacancy"></s:select>
-                                                                            <s:select list="#{}" label="Choose Interviewer" headerKey="-1" headerValue="Choose interviewer" name="interviewer"></s:select>
-                                                                        </c:when>
-                                                                        <c:otherwise>
-                                                                            <s:select list="vacancies" label="Choose Vacancy" headerKey="-1" headerValue="Choose vacancy" name="vacancy"></s:select>
-                                                                            <s:select list="interviewers" label="Choose Interviewer" headerKey="-1" headerValue="Choose interviewer" name="interviewer"></s:select>
-                                                                        </c:otherwise>
-                                                                    </c:choose>
-
-                                                                    <s:date name="startDate"/>
-                                                                    <s:date name="endDate"/>
+                                                                    <s:select list="vacancies" label="Choose Vacancy" headerKey="-1" headerValue="Choose vacancy" name="vacancy"></s:select>
+                                                                    <s:select list="interviewers" label="Choose Interviewer" headerKey="-1" headerValue="Choose interviewer" name="interviewer"></s:select>
+                                                                    <s:textfield label="Start date" name="startDate"/>
+                                                                    <s:textfield label="End date" name="endDate"/>
                                                                     <s:submit value="ADD"/>
                                                                 </td>
                                                             </tr>
