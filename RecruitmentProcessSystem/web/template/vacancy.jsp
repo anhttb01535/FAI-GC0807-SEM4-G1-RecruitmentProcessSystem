@@ -8,22 +8,6 @@
         <link rel="stylesheet" href="css/style2.css" type="text/css">
     </head>
     <body>
-<<<<<<< HEAD
-        <h1>Department: <s:property value="department"/></h1>
-        <s:iterator value="vacancies" var="v">
-            <s:div>
-                <s:form action="LoadInterviewApp" method="POST">
-                    <s:set value="#v.id" name="id1"/>
-                    <h3><s:property value="#id1" /></h3>
-                    <s:textfield readonly="true" name="id" value="%{id1}"/>
-                    <h3><s:property value="#v.title"/></h3>
-                    <h3><s:property value="#v.numberOfApplicant"/></h3>
-                    <h3><s:property value="#v.status"/></h3>                   
-                    <s:submit value="Interview schedule"/>
-                </s:form>
-            </s:div>
-        </s:iterator>
-=======
         <div id="header">
             <div class="clearfix">
                 <div class="logo">
@@ -98,6 +82,5 @@
                 </div>
             </div>
         </div>
->>>>>>> origin/master
     </body>
 </html>

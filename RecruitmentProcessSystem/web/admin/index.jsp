@@ -13,20 +13,11 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link media="screen" rel="stylesheet" type="text/css" href="css/admin-login.css"  />
         <title>Login</title>
-        <link href="../template/css/style-admin.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div id="header">
-            <div class="clearfix">
-                <div class="logo">
-                    <img src="../template/images/logo.png" alt=""/>
-                </div>
-            </div>
-        </div>
         <s:if test="#session.loggedin == 'true'">
             <jsp:forward page="manager.jsp" />
         </s:if>
-<<<<<<< HEAD
         <div id="wrapper">
             <!--[if !IE]>start login wrapper<![endif]-->
             <div id="login_wrapper">
@@ -66,15 +57,6 @@
                 <!--[if !IE]>end login<![endif]-->
             </div>
             <!--[if !IE]>end login wrapper<![endif]-->
-=======
-        <div style="margin-top: 40px;padding-left: 500px">
-            <h1>Admin Login</h1>
-            <s:form method="POST" action="LoginAdmin">
-                <s:textfield name="username" label="Username" /> <br/>
-                <s:password name="password" label="Password"/>
-                <s:submit value="Login" />
-            </s:form>
->>>>>>> origin/master
         </div>
     </body>
 </html>
