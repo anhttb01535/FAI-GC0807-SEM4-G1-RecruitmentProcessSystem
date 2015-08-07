@@ -11,26 +11,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <script type="text/javascript" src="js/jquery-2.1.4.min.js" />
-        <script type="text/javascript">
-            /*$('#selectdepartment').change(function () {
-             
-             if ($(this).val() === '') {
-             l
-             }
-             
-             });*/
-            function handleChange(value) {
-                var element = document.getElementById("selectVacancy");
-                var element1 = document.getElementById("selectInterviewer");
-                element.setAttribute("list", vacancies.innerHTML);
-                element1.setAttribute("list", interviewers.innerHTML);
-            }
-        </script>
         <title>JSP Page</title>
     </head>
     <body>
         <s:form action="CreateInterview" method="POST">
-            <s:select id="selectdepartment" label="Choose department" list="departments" listValue="name" headerKey="-1" headerValue="Select department" name="department" onchange="handleChange(this.value)"></s:select>
+            <s:select id="selectdepartment" label="Choose department" list="departments" listValue="name" headerKey="-1" headerValue="Select department" name="department"></s:select>
             <s:textfield name="startDate" label="Start date"/>
             <s:textfield name="endDate" label="End date"/>                     
             <s:select id="selectVacancy" label="Choose vacancy" list="vacancies" listValue="title" headerKey="-1" headerValue="Select vacancy" name="vacancy"></s:select>

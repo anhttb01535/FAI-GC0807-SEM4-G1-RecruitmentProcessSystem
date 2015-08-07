@@ -6,6 +6,8 @@
 package hrgroup.controller;
 
 import hrgroup.db.controller.InterviewResultJpaController;
+import hrgroup.db.entities.Applicant;
+import hrgroup.db.entities.Interview;
 import hrgroup.db.entities.InterviewResult;
 import java.util.ArrayList;
 import java.util.List;
@@ -40,6 +42,18 @@ public class InterviewResultDataController {
         }
         return selectIrs;
     }
+    
+    public void create(String idApplicant, String idInterview ) throws Exception {
+        InterviewResult ir = new InterviewResult();
+        ApplicantDatacontroller appController = new ApplicantDatacontroller();
+        Applicant app = appController.findApplicantById(idApplicant);
+        ir.setIdApplicant(app);
+        InterviewDataController intController = new InterviewDataController();
+        Interview in = intController.findInterviewById(idInterview);
+        ir.setIdInterview(in);
+        ir.setStatus("Interview Scheduled");
+        jpaController.create(ir);     
+    } 
     
     public void persist(Object object) {
         EntityManager em = emf.createEntityManager();

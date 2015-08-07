@@ -9,6 +9,9 @@
             <result name="success">manager.jsp</result>
             <result name="error">index.jsp</result>
         </action>
+        <action name="LogoutAdmin" class="hrgroup.action.LogoutAdmin">
+            <result name="success">index.jsp</result>
+        </action>
         <action name="LoginApplicant" class="hrgroup.action.LoginApplicant">
             <result name="success">applicant.jsp</result>
             <result name="error">login.jsp</result>
@@ -17,14 +20,32 @@
             <result name="success">manager.jsp</result>
             <result name="error">manager.jsp</result>
         </action>
-        <action name="LoadInterview" class="hrgroup.action.LoadInterview">
-            <result name="success">createinterview.jsp</result>
+        <action name="GetAllInterview" class="hrgroup.action.GetAllInterview">
+            <result name="success">manageinterview.jsp</result>
         </action>
         <action name="LoadVacancy" class="hrgroup.action.LoadVacancy">
             <result name="success">vacancy.jsp</result>
         </action>
         <action name="LoadInterviewApp" class="hrgroup.action.LoadInterviewApp">
             <result name="success">interview.jsp</result>
+        </action>       
+        <action name="ApplyInterview" class="hrgroup.action.ApplyInterview">
+            <result name="success">loadinterview.jsp</result>
+        </action>
+        <action name="ReloadInterviewApp" class="hrgroup.action.ReloadInterviewApp">
+            <result name="success">interview.jsp</result>
+        </action>
+        <action name="UpdateInterview" class="hrgroup.action.UpdateInterview">
+            <result name="success">loadinterview.jsp</result>
+        </action>
+        <action name="DeleteInterview" class="hrgroup.action.DeleteInterview">
+            <result name="success">loadinterview.jsp</result>
+        </action>
+        <action name="LoadDepartment" class="hrgroup.action.LoadDepartment">
+            <result name="success">addinterview.jsp</result>
+        </action>
+        <action name="LoadVacanInter" class="hrgroup.action.LoadVacanInter">
+            <result name="success">addinterview.jsp</result>
         </action>
     </package>
 </struts>

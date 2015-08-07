@@ -5,10 +5,12 @@
  */
 package hrgroup.action;
 
+import com.opensymphony.xwork2.ActionContext;
 import hrgroup.controller.VacancyDataController;
 import hrgroup.db.entities.Vacancy;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  *
@@ -42,6 +44,8 @@ public class LoadVacancy {
     }
     
     public String execute() throws Exception {
+        Map<String,Object> session = ActionContext.getContext().getSession();
+        session.put("department", department);
         vacancies = controller.findVacanciesByDepartment(department);
         return "success";
     }

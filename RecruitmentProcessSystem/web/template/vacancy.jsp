@@ -19,10 +19,10 @@
                 <s:form action="LoadInterviewApp" method="POST">
                     <s:set value="#v.id" name="id1"/>
                     <h3><s:property value="#id1" /></h3>
+                    <s:textfield readonly="true" name="id" value="%{id1}"/>
                     <h3><s:property value="#v.title"/></h3>
                     <h3><s:property value="#v.numberOfApplicant"/></h3>
-                    <h3><s:property value="#v.status"/></h3>
-                    <s:param name="id"><s:property value="#id1"/></s:param>
+                    <h3><s:property value="#v.status"/></h3>                   
                     <s:submit value="Interview schedule"/>
                 </s:form>
             </s:div>

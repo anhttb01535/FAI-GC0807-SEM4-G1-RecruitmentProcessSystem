@@ -29,6 +29,14 @@ public class DepartmentDataController {
         return jpaController.findDepartmentEntities();
     }
     
+    public Department findDepartmentByName(String name) {
+        List<Department> departs = findAllDepartment();
+        for(Department d:departs) {
+            if(d.getName().equals(name)) return d;
+        }
+        return null;
+    }
+    
     public void persist(Object object) {
         EntityManager em = emf.createEntityManager();
         try {

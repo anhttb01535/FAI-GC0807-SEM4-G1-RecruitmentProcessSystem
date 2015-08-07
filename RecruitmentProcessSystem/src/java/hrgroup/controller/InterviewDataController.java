@@ -41,6 +41,10 @@ public class InterviewDataController {
         return selectInter;
     }
     
+    public Interview findInterviewById(String id) {
+        return controller.findInterview(id);
+    }
+    
     public void persist(Object object) {
         EntityManager em = emf.createEntityManager();
         try {
