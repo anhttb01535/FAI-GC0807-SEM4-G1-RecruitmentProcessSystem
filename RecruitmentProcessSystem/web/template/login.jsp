@@ -1,9 +1,3 @@
-<%-- 
-    Document   : login
-    Created on : Jul 23, 2015, 8:53:23 AM
-    Author     : tuananh
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib  prefix="s" uri="/struts-tags" %>
 <!DOCTYPE html>
@@ -26,29 +20,26 @@
                     <li>
                         <a href="about.jsp">About Us</a>
                     </li>				
-                    <li>
-                        <a href="login.jsp">Login</a>
-                    </li>
+                    
                 </ul>
             </div>
         </div>
         <div id="contents">
-            <div id="adbox">
-                <div class="clearfix">
-                    <table></table>
-                </div>
-            </div>
 
-            <div class="featured">
+
+            <div style="margin-top: 40px;padding-left: 500px">
                 <s:if test="#session.loggedin == 'true'">
                     <jsp:forward page=".jsp" />
-                </s:if>
-                <h1>Login</h1>
-                <s:form method="POST" action="LoginApplicant">
-                    Username: <s:textfield name="username" /> <br/>
-                    Password: <s:password name="password" />
-                    <s:submit value="Login" />
-                </s:form>
+                </s:if> 
+
+                <h1 >Login to System</h1>
+                <div style="border: double 1px black; width: 260px;padding: 5px 10px 10px 10px">
+                    <s:form method="POST" action="LoginApplicant" >
+                        <s:textfield name="username" label="Username"/> <br/>
+                        <s:password name="password" label="Password" />
+                        <s:submit value="Login" />
+                    </s:form>
+                </div>
             </div>
         </div>
         <div id="footer">
@@ -75,9 +66,8 @@
             </div>
             <div id="footnote">
                 <div class="clearfix">
-
                     <p>
-                        © Copyright 2023 Manes Winchester. All Rights Reserved.
+                        © Copyright 2015
                     </p>
                 </div>
             </div>

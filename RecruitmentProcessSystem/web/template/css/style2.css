@@ -76,6 +76,7 @@ img {
 
 #contents {
 	padding-bottom: 24px;
+        min-height: 300px;
 }
 #contents > div.clearfix:first-child {
 	width: 940px;
@@ -151,6 +152,7 @@ p a:hover {
 #footer {
 	background: #d9d9d9 url(../images/bg-footer.png) repeat-x left top;
 	border-top: 2px solid #fff;
+        
 }
 #footer .section {
 	float: left;
@@ -189,3 +191,7 @@ p a:hover {
 	text-transform: uppercase;
 }
 
+table,tr, td{
+    border: solid 1px #57614e;
+    border-collapse: collapse;
+}
