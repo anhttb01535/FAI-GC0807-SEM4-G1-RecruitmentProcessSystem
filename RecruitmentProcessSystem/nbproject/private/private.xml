@@ -3,10 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/eproject4/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/hrgroup/controller/AdminDataController.java</file>
-            <file>file:/D:/eproject4/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/template/applicant.jsp</file>
-            <file>file:/D:/eproject4/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/admin/js/jquery-2.1.4.min.js</file>
-            <file>file:/D:/eproject4/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/web/admin/js/behaviour.js</file>
+            <file>file:/D:/eproject4/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/java/struts.xml</file>
+            <file>file:/D:/eproject4/FAI-GC0807-SEM4-G1-RecruitmentProcessSystem/RecruitmentProcessSystem/src/conf/persistence.xml</file>
         </group>
     </open-files>
 </project-private>
